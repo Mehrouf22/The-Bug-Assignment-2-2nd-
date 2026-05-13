@@ -12,6 +12,10 @@ main{
     width: 100;
     height: 100%;
     /* background-color: crimson; */
+    background: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -22,6 +26,7 @@ nav{
    align-items: center;
     /* background-color: aqua; */
     font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
 }
 
 #sideL{
@@ -55,9 +60,46 @@ color:gray
 
 #sideR{
     width: 50%;
-    /* background-color: blue; */
-    background-color: transparent;
+color: white;
+  background-color: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header{
+   width: 100%;
+    height: calc(100vh - 78.5px);
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#part1{
+width: 20%;
+height: 100%;
+/* background-color: red; */
+}
+#part2{
+width: 20%;
+height: 100%;
+/* background-color: forestgreen; */
+}
+#part3{
+width: 30%;
+height: 100%;
+/* background-color: orange; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#part3 img{
+    
+    height: 100%;
+}
+#part4{
+width: 40%;
+height: 100%;
+/* background-color: yellow; */
 }
